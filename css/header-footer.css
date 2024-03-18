@@ -51,15 +51,37 @@ footer{
 }
 
 .carrito{
-    border: 1px solid red;
     position: relative;
     background-color: #087e8b;
     height: 4rem;
     width: 4rem;
     border-radius: 20%;
+
 }
-.material-icons{
+
+.carrito:hover{
+    background-color: #0f9ead;
+}
+.carrito .material-icons{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    font-size: 2.5rem;
     color: #fff;
+}
+
+.texto-carrito{
+    position: absolute;
+    right: 0;
+    top: -10px;
+    color: #075e68;
+    background-color: #dae9f5;
+    height: 30px;
+    width: 30px;
+    text-align: center;
+    line-height: 30px;/*para centrarlo*/
+    border-radius: 50%;
+
 }
 .navMenu ul{
     display: flex;
