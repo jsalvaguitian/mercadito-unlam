@@ -4,10 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Mercadito-UNLaM</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3af30a602.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/header-footer.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="shortcut icon" href="img/logo_unlam2.png">
 </head>
 
 <body>
@@ -23,12 +25,11 @@
                 <span class="material-icons">search</span>
             </div>
 
-            <div class="carrito">
+            <div class="carrito-compra">
                 <a href="pages/carrito.html">
                     <span class="material-icons">shopping_cart</span>
                 </a>
                 <span class="texto-carrito">2</span>
-
             </div>
         </div>
         <nav class="navMenu">
@@ -43,41 +44,168 @@
     <main>
         <!--********* CARRUSEL **********************-->
         <section class="contenedor-carrusel-principal">
+            <div class="carrusel">
+                <div class="slider-seccion">
+                    <img src="img/2-ofertas.jpeg" alt="" class="slider-img">
+                </div>
+                <div class="slider-seccion">
+                    <img src="img/2-electro.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-seccion">
+                    <img src="img/2-lacteos.jpg" alt="" class="slider-img">
+                </div>
+                <div class="slider-seccion">
+                    <img src="img/2-game.jpg" alt="" class="slider-img">
+                </div>
+            </div>
+            <div class="slider-btn btn-slider-right" id="btn-right">
+                <span class="material-icons">
+                    chevron_right
+                </span>
+            </div>
 
+            <div class="slider-btn btn-slider-left" id="btn-left">
+                <span class="material-icons">
+                    chevron_left
+                </span>
+            </div>
+
+            <ul class="dots">
+                <li class="dot active"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+                <li class="dot"></li>
+            </ul>
         </section>
         <!--*********** CATEGORIAS ********************-->
         <section class="contenedor-categorias">
+            <h2>Cátegorias más visitadas</h2>
+            <ul class="categorias">
+                <li class="categoria">
+                    <a href="pages/segunda-pantalla-categoria-esp.html">
+                        <img src="img/1-tecno.png" alt="">
+                        <h3>Tecnología</h3>
+                    </a>
+
+                </li>
+                <li class="categoria">
+                    <a href="pages/segunda-pantalla-categoria-esp.html">
+                        <img src="img/1-electro.jpeg" alt="">
+                        <h3>Electrodomésticos</h3>
+                    </a>
+                </li>
+                <li class="categoria">
+                    <a href="pages/segunda-pantalla-categoria-esp.html">
+                        <img src="img/1-bebidas.jpeg" alt="">
+                        <h3>Bebidas</h3>
+                    </a>
+                </li>
+
+            </ul>
 
         </section>
         <!--***** BANNER PRODUCTOS MAS VENDIDOS *******-->
         <aside class="productos-mas-vendidos">
+            <h2>Productos más vendidos</h2>
+            <div class="contenedor-producto">
+                <a href="producto.html">
+                    <article class="producto">
+                        <img src="img/productos/4-microondas-samsung.jpg" alt="microondas Samsung">
+                        <div class="pie-producto">
+                            <div>
+                                <a href="producto.html">
+                                    <p class="titulo-producto">Microondas Samsung</p>
+                                </a>
+                                <h3 class="precio-producto">$92000.70</h3>
+                                <form action="#" method="post">
+                                    <label for="cantidad">Cantidad: </label>
+                                    <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1"
+                                        max="100" value="1">
+                                </form>
+                            </div>
+                            <a href="mi-carrito.html">
+                                <button class="carrito"><i class="fa-solid fa-cart-plus"></i></button>
+                            </a>
+                        </div>
+
+                    </article>
+                </a>
+                <a href="producto.html">
+                    <article class="producto">
+                        <img src="img/productos/4-samsung-lavar.jpg" alt="Lavarropa Samsung">
+                        <div class="pie-producto">
+                            <div>
+                                <a href="producto.html">
+                                    <p class="titulo-producto">Lavarropa Samsung</p>
+
+                                </a>
+                                <h3 class="precio-producto">$1499999.99</h3>
+                                <form action="#" method="post">
+                                    <label for="cantidad">Cantidad: </label>
+                                    <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1"
+                                        max="100" value="1">
+                                </form>
+                            </div>
+                            <a href="mi-carrito.html">
+                                <button class="carrito"><i class="fa-solid fa-cart-plus"></i></button>
+                            </a>
+                        </div>
+
+                    </article>
+                </a>
+
+                <a href="producto.html">
+                    <article class="producto">
+                        <img src="img/productos/hogar-textil/silla-gamer.jpg" alt="Silla gamer">
+                        <div class="pie-producto">
+                            <div>
+                                <a href="producto.html">
+                                    <p class="titulo-producto">Silla gamer</p>
+                                </a>
+
+                                <h3 class="precio-producto">$321000.30</h3>
+                                <form action="#" method="post">
+                                    <label for="cantidad">Cantidad: </label>
+                                    <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1"
+                                        max="100" value="1">
+                                </form>
+
+                            </div>
+                            <a href="mi-carrito.html">
+                                <button class="carrito"><i class="fa-solid fa-cart-plus"></i></button>
+                            </a>
+                        </div>
+
+                    </article>
+                </a>
+
+            </div>
 
         </aside>
         <!--****** CARRUSEL METODOS DE PAGOS ********-->
         <aside class="metodos-de-pago">
             <h2>Métodos de pago</h2>
-            <div class="contenedor-carrusel-metodos-de-pago">
-                <button role="button" id="flechaIzq" class="flechaIzq">
-                    <span class="material-icons">
-                        chevron_left
-                    </span>
-                </button>
-
-                <div class="carrusel" id="carrusel">
+            <div class="contenedor-metodos-de-pago" id="contenedor-metodos-de-pago">
+                <div class="carrusel-pagos" id="carrousel-pagos">
                     <img class="metodo" src="img/metodos-pago/cabal_debito.png" alt="">
-                    <img class="metodo" src="img/metodos-pago/logo_amex.jpg" alt="">
-                    <img class="metodo" src="img/metodos-pago/maestro-logo.png" alt="">
                     <img class="metodo" src="img/metodos-pago/mastercard-logo.png" alt="">
                     <img class="metodo" src="img/metodos-pago/mercado-pago-logo.jpg" alt="">
                     <img class="metodo" src="img/metodos-pago/visa-debito.png" alt="">
-                    <img class="metodo" src="img/metodos-pago/visa-logo.png" alt="">
+                    <img class="metodo" src="img/metodos-pago/logo_amex.jpg" alt="">
+                    <img class="metodo" src="img/metodos-pago/maestro-logo.png" alt="">
+                    <img class="metodo visa" src="img/metodos-pago/visa-logo.png" alt="">
                 </div>
-
-                <button role="button" id="flechaDer" class="flechaDer">
+                <div class="slider-btn btn-pagos-right" id="flechaDer">
                     <span class="material-icons">
                         chevron_right
                     </span>
-                </button>
+                </div>
+
+                <div class="slider-btn btn-pagos-left" id="flechaIzq">
+                    <span class="material-icons">
+                        chevron_left
+                    </span>
+                </div>
             </div>
         </aside>
         <!--*********************************************-->
@@ -89,20 +217,25 @@
             <p>de 8 a 14hs. y de 16 a 20hs.</p>
         </div>
         <div class="columna-dos-footer">
-            <p>Datos de la alumna: </p>
-            <p>Salva Guitian, Jesica Belén</p>
+            <p>Jesica Salva</p>
         </div>
         <div class="columna-tres-footer">
             <p>Seguinos en: </p>
             <p class="iconos-red-social">
                 <a href="https://www.facebook.com/UnlamOficial/" target="_blank">
-                    <i class="fa-brands fa-facebook"></i></a>
+                    <i class="fa-brands fa-facebook"></i>
+                </a>
                 <a href="https://www.instagram.com/unlamoficial/" target="_blank">
-                    <i class="fa-brands fa-instagram"></i></a>
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/UnlamOficial/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+
             </p>
         </div>
 
     </footer>
+
+    <script src="js/index.js"></script>
 </body>
 
 </html>

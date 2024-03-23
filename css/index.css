@@ -4,10 +4,253 @@ html{
 }
 
 main{
-    background-color: pink;
+    background-color: #fff;
+}
+.contenedor-carrusel-principal{
+    width: 100%;
+    max-width: 100rem;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
 }
 
-.metodo{
-    width: 200px;
+.carrusel{
+    display: flex;
+    width: 400%;
+    height: 500px;
+    margin-left: -100%;
+}
 
+.slider-seccion{
+    width: 100%;
+}
+
+.slider-img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit:cover;
+}
+
+.slider-btn{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background: rgba(255, 255, 255, 0.7);
+    top:50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 155%;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+.slider-btn:hover{
+    background: #fff;
+    
+}
+
+.btn-slider-right{
+    right: 10px;
+
+}
+
+.btn-slider-left{
+    left: 10px;
+}
+
+.dots{
+    position: absolute;
+    bottom: 10px;
+    color: #fff;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dot{
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #d3d3d3;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.active{
+    width: 30px;
+    background-color: #fff;
+}
+/*Los titulos*/
+h2{
+    padding: 2rem 0 0rem;
+    text-align: center;
+}
+
+/*Botones de categorias*/
+.categorias{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.categoria{
+    position: relative;
+    width: 430px;
+    height: 260px;
+    border-radius: 6px;
+    padding: 20px;
+}
+
+.categoria img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+.categoria img:hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.4);
+
+}
+
+.categoria h3{
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 10px 0px 7px #000000;
+}
+/*Estilo de los productos mas vendidos*/
+.contenedor-producto{
+    padding-left:0px;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content:center;
+    align-items: center;
+}
+
+.contenedor-producto article{
+    width: 300px;
+    margin: 15px;
+    padding: 2px 16px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.2);
+    background-color: #fff;
+    box-sizing: none;
+    
+   
+}
+.contenedor-producto article:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0, 0.4);
+}
+
+.producto img{
+    width: 280px;
+    /*border: 1px solid red;*/
+
+}
+
+.pie-producto{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+}
+.carrito{
+    margin-left: 30px;
+    padding: 10px;
+    border-radius: 0.5em;
+    background-color: gray;
+    color: #fff;
+    font-size: 1.2rem;
+}
+
+.carrito:hover{
+    background-color: rgb(180, 180, 180);
+}
+
+
+input[type=number]{
+    text-align: center;
+    
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+.cuadro-cant{
+    width: 45px;
+}
+
+.img{
+    width: 100px;
+}
+
+.pie-producto div a{
+    text-decoration: none;
+    color: black;
+}
+
+.pie-producto div a:hover{
+    font-weight:600;
+}
+
+/*Metodos de pagos*/
+
+.metodos-de-pago h2{
+    padding-top: 2rem;
+}
+.contenedor-metodos-de-pago{
+    position: relative;
+}
+
+.carrusel-pagos{
+    background-color: #fff;
+    width: 100%;
+    height: 11rem;
+    display: flex;  
+    align-items: center;
+    scroll-behavior: smooth;
+    overflow: hidden;
+
+}
+.metodo{
+    display: block;
+    height: 79%;
+    margin: 0 65px;
+}
+
+.visa{
+    height:100px;
+    padding: 5px;
+}
+
+.btn-pagos-right, .btn-pagos-left{
+    background: rgba(74, 145, 252, 0.7);
+}
+
+.btn-pagos-right{
+    right: 0.5em;
+}
+
+.btn-pagos-right:hover{
+    background: rgba(169, 203, 255, 0.7);
+}
+
+.btn-pagos-left{
+    left: 0.5em;
+}
+
+.btn-pagos-left:hover{
+    background: rgba(169, 203, 255, 0.7);
 }
