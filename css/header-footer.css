@@ -105,6 +105,7 @@ footer{
     color: #fff;
     font-size: 1.3rem;
     text-transform: uppercase;
+    display: block;
 }
 .navMenu li:hover{
     background-color: #087e8b;

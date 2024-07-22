@@ -1,18 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=pages, initial-scale=1.0">
     <title>Mercadito-UNLaM</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <script src="https://kit.fontawesome.com/c3af30a602.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="../css/header-footer.css">
-    <link rel="stylesheet" href="../css/segunda-pantalla.css">
+    <link rel="stylesheet" href="../css/producto.css">
     <link rel="icon" href="../img/logo_unlam2.png">
-
 </head>
-
 <body>
     <header>
         <div class="header-principal">
@@ -42,20 +39,47 @@
             </ul>
         </nav>
     </header>
-
     <main>
-        <h1>HOGAR Y TEXTIL</h1>
+        <section>
+            <article class="tarjeta-producto">
 
-        <section class="contenedor-productos">
+                <div class="foto-descripcion">
+                    <img src="../img/productos/hogar-textil/silla-gamer.jpg" alt="Silla gamer Daewoo Venom verde">
+                    <h3 class="precio-producto">$260.3</h3>
+                </div>
 
+                <div class="descripcion">
+                    <h2 class="titulo-producto">Silla gamer Daewoo Venom </h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam iusto a delectus molestias 
+                        pariatur omnis saepe eaque itaque reprehenderit ex quod cupiditate earum ipsa architecto 
+                        commodi odit impedit, dolor minima. Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Fugit, excepturi, molestias aliquid quas veritatis eius iure odio porro temporibus eligendi 
+                        suscipit commodi dolores id eaque nam, minima ad sunt.</p>
+                    <div class="boton-cantidad-comprar">
+                        <form action="#" method="post">
+                            <label for="cantidad">Cantidad: </label>
+                            <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1" max="100" value="1">
+                        </form>
+                        <a href="mi-carrito.html">
+                            <button class="carrito"><span>Agregar </span><i class="fa-solid fa-cart-plus"></i></button>
+                        </a>
+
+                    </div>
+                </div>
+            </article>
+
+        </section>
+    </main>
+    <aside class="productos-mas-vendidos">
+        <h2 >Productos similares</h2>
+
+        <div class="contenedor-productos">
             <a href="producto.html">
                 <article class="producto">
                     <img src="../img/productos/hogar-textil/silla-gamer.jpg" alt="Silla gamer verde">
                     <div class="pie-producto">
                         <div>
-                            <a href="producto.html">
-                                <p class="titulo-producto">Silla gamer verde Daewoo Venom</p>
-                            </a>
+                            <p class="titulo-producto">Silla gamer verde Daewoo Venom</p>
                             <h3 class="precio-producto">$260.3</h3>
                             <form action="#" method="post">
                                 <label for="cantidad">Cantidad: </label>
@@ -75,9 +99,6 @@
                     <img src="../img/productos/hogar-textil/adorno-home.jpg" alt="adorno con la palabra Home">
                     <div class="pie-producto">
                         <div>
-                            <a href="producto.html">
-                                <p class="titulo-producto">Sillón blanco </p> 
-                            </a>
                             <p class="titulo-producto">Adorno Home</p>
                             <h3 class="precio-producto">$260.3</h3>
                             <form action="#" method="post">
@@ -100,9 +121,7 @@
                     <img src="../img/productos/hogar-textil/adorno-love.jpg" alt="adorno con la palabra Love">
                     <div class="pie-producto">
                         <div>
-                            <a href="producto.html">
-                                <p class="titulo-producto">Sillón blanco </p>
-                            </a>
+
                             <p class="titulo-producto">Adorno Love</p>
                             <h3 class="precio-producto">$260.3</h3>
                             <form action="#" method="post">
@@ -120,77 +139,9 @@
                 </article>
             </a>
 
-            <a href="producto.html">
-                <article class="producto">
-                    <img src="../img/productos/hogar-textil/alcolchado.jpg" alt="alcolchado">
-                    <div class="pie-producto">
-                        <div>
-                            <a href="producto.html">
-                                <p class="titulo-producto">Sillón blanco </p>
-                            </a>
-                            <p class="titulo-producto">Acolchado Home Studio</p>
-                            <h3 class="precio-producto">$260.3</h3>
-                            <form action="#" method="post">
-                                <label for="cantidad">Cantidad: </label>
-                                <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1" max="100"
-                                    value="1">
-                            </form>
-                        </div>
-                        <a href="mi-carrito.html">
-                            <button class="carrito"><i class="fa-solid fa-cart-plus"></i></button>
-                        </a>
 
-                    </div>
-
-                </article>
-            </a>
-
-            <a href="producto.html">
-                <article class="producto">
-                    <img src="../img/productos/hogar-textil/sillon.jpg" alt="sillon blanco">
-                    <div class="pie-producto">
-                        <div>
-                            <a href="producto.html">
-                                <p class="titulo-producto">Sillón blanco </p>
-                            </a>
-                            <h3 class="precio-producto">$260.3</h3>
-                            <form action="#" method="post">
-                                <label for="cantidad">Cantidad: </label>
-                                <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1" max="100"
-                                    value="1">
-                            </form>
-                        </div>
-                        <a href="mi-carrito.html">
-                            <button class="carrito"><i class="fa-solid fa-cart-plus"></i></button>
-                        </a>
-                    </div>
-
-                </article>
-            </a>
-
-            <a href="producto.html">
-                <article class="producto">
-                    <img src="../img/productos/hogar-textil/sabana.jpg" alt="sabanas">
-                    <div class="pie-producto">
-                        <div>
-                            <a href="producto.html">
-                                <p class="titulo-producto">Conjunto de Sábanas</p>
-                            </a>
-                            <h3 class="precio-producto">$260.3</h3>
-                            <form action="#" method="post">
-                                <label for="cantidad">Cantidad: </label>
-                                <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1" max="100"
-                                    value="1">
-                            </form>
-                        </div>
-                        <a href="mi-carrito.html">
-                            <button class="carrito"><i class="fa-solid fa-cart-plus"></i></button>
-                        </a>
-                    </div>
-                </article>
-            </a>
-        </section>
-    </main>
+        </div>
+    </aside>
 
     <footer class="contenedor-footer">
         <div class="columna-uno-footer">
@@ -215,5 +166,4 @@
         </div>
     </footer>
 </body>
-
 </html>
