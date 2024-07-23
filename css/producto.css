@@ -8,6 +8,16 @@ body{
     background-color: #fff;
     font-family: Arial, Helvetica, sans-serif;
 }
+.carrito{
+    background-color: #0b3954;
+    border-radius: 10%;
+    color: #fff;
+    font-weight: bold;
+}
+
+.carrito:hover{
+    background-color: #0f9ead;
+}
 .tarjeta-producto{
     display: flex;
     justify-content:space-evenly;
@@ -38,6 +48,7 @@ body{
 }
 .boton-cantidad-comprar{
     display: flex;
+    align-items: center;
 }
 
 .productos-mas-vendidos h2{

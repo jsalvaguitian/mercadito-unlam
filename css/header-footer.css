@@ -4,10 +4,10 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 header{
-    background-color: #0b3954;
+    background-color: #2A3966;
 }
 footer{
-    background-color: #0b3954;
+    background-color: #2A3966;
 }
 .logo-mercadito{
     width: 5rem;
@@ -25,7 +25,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #087e8b;
+    background-color: #b6c52f;
     border-radius: 10px;
     padding: 0.7rem;
     color: white;
@@ -36,14 +36,14 @@ footer{
     margin: 0 100px 0 10px;
     border: none;
     outline: none;
-    background-color: #087e8b;
+    background-color: #b6c52f;
     color: white;
     width: 100%;
     font-size: 1.2rem;
 }
 
 .buscar input::placeholder{
-    color: #bfd7ea;
+    color: #fff;
 }
 
 .buscar span{
@@ -52,7 +52,7 @@ footer{
 
 .carrito-compra{
     position: relative;
-    background-color: #087e8b;
+    background-color: #b6c52f;
     height: 4rem;
     width: 4rem;
     border-radius: 20%;
@@ -60,7 +60,7 @@ footer{
 }
 
 .carrito-compra:hover{
-    background-color: #0f9ead;
+    background-color: #cdd866;
 }
 .carrito-compra .material-icons{
     position: absolute;
@@ -74,8 +74,8 @@ footer{
     position: absolute;
     right: 0;
     top: -10px;
-    color: #075e68;
-    background-color: #dae9f5;
+    color: rgb(4, 66, 4);
+    background-color: #f7ffad;
     height: 30px;
     width: 30px;
     text-align: center;
@@ -85,7 +85,7 @@ footer{
 }
 
 .carrito-compra:hover > .texto-carrito{
-    background-color: #eff8ff;
+    background-color: #f4f8cd;
 }
 .navMenu ul{
     display: flex;
@@ -108,7 +108,7 @@ footer{
     display: block;
 }
 .navMenu li:hover{
-    background-color: #087e8b;
+    background-color: #4c587e;
 
 }
 

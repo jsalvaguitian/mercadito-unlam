@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+.logo-mercadito{
+    width: 7.7rem;
+    border-radius: 50% ;
+    margin-bottom: 2em;
+}
+body{
+    background-color: #2A3966;
+
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+main h1{
+    color: #fff;
+}
+
+.logo-titulo{
+    padding: 2rem;
+    text-align: center;
+}
+
+.login-box{
+    background-color: #fff;
+    width: 22rem;
+    align-self: center;
+    border-radius: 10px;
+    padding-bottom: 3rem;
+
+}
+.btn{
+    width: 20rem;
+    padding: 0.7em 0em;
+    background-color: #C3D22F;
+    border-radius: 0.3rem;
+}
+
+.form-box{
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.form-box div{
+    display: flex;
+    flex-direction: column;
+}
+
+.usuario label,input{
+    margin-bottom: 9px;
+}
+
+.usuario input{
+    padding: 5px 0px 5px 0px;
+    border-radius:0.3em;
+}
+
+.olvido a{
+    margin-bottom: 1.7rem;
+}
+
+.sign-up-box{
+    text-align: center;
+}
+
