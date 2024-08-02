@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mercadito-UNLaM</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/c3af30a602.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/header-footer.css">
+    <link rel="stylesheet" href="../css/carrito.css">
+    <link rel="icon" href="../img/logo_unlam2.png">
 </head>
+
 <body>
     <header>
         <div class="header-principal">
             <a href="../index.html">
                 <img src="../img/logo-market.jpg" alt="logo-mercadito" class="logo-mercadito">
             </a>
-
-
             <div class="buscar">
                 <input type="text" name="" id="buscar" class="buscador" placeholder="Buscar productos">
                 <span class="material-icons">search</span>
@@ -36,11 +41,92 @@
 
     </header>
     <main>
+        <section>
+            <article class="fondo-maggie">
+                <img class="img-maggie" src="../img/maggie-header-compra2.png" alt="">
+            </article>
+
+            <article class="titulo-carrito">
+                <p class="icon-mi-carrito"><i class="fa-solid fa-cart-shopping"></i></p>
+                <h2> Mi carrito</h2>
+            </article>
+
+            <article class="listado-carrito">
+                <div class="redireccionable">
+                    <a href="../pages/producto.html">
+                        <img class="img-producto" src="../img/productos/hogar-textil/silla-gamer.jpg" alt="">
+                        <span class="name-product">Silla gamer</span>
+                    </a>
+                </div>
+                <div class="descripcion-producto">
+                    <div class="precio">
+                        <p>Precio</p>
+                    </div>
+                    <div class="valor">
+                        <p>$33333.22</p>
+                    </div>
+                    <div class="cantidad">
+                        <p>Cantidad</p>
+                    </div>
+                    <div class="numero-cantidad">
+                        <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1" max="100" value="1">
+                    </div>
+                    <div class="subtotal">
+                        <p>Subtotal</p>
+                    </div>
+                    <div class="valor-subtotal">
+                        <p>$33333.22</p>
+                    </div>
+                    <div class="tachito">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+
+                </div>
+
+            </article>
+            <article class="listado-carrito">
+                <div class="redireccionable">
+                    <a href="../pages/producto.html">
+                        <img class="img-producto" src="../img/productos/hogar-textil/silla-gamer.jpg" alt="">
+                        <span class="name-product">Silla gamer</span>
+                    </a>
+                </div>
+                <div class="descripcion-producto">
+                    <div class="precio">
+                        <p>Precio</p>
+                    </div>
+                    <div class="valor">
+                        <p>$33333.22</p>
+                    </div>
+                    <div class="cantidad">
+                        <p>Cantidad</p>
+                    </div>
+                    <div class="numero-cantidad">
+                        <input class="cuadro-cant" id="cantidad" type="number" name="cantidad" min="1" max="100" value="1">
+                    </div>
+                    <div class="subtotal">
+                        <p>Subtotal</p>
+                    </div>
+                    <div class="valor-subtotal">
+                        <p>$33333.22</p>
+                    </div>
+                    <div class="tachito">
+                        <i class="fa-solid fa-trash"></i>
+                    </div>
+
+                </div>
+
+            </article>
+            <a href="#" class="boton-pagar">
+                <button><span>Pagar </span></button>
+            </a>
+
+        </section>
 
     </main>
     <footer class="contenedor-footer">
         <div class="columna-uno-footer">
-            <img class="logo" src="img/logo_unlam2.png" alt="logo de la universidad">
+            <img class="logo" src="../img/logo_unlam2.png" alt="logo de la universidad">
             <p>Lunes a Sábado</p>
             <p>de 8 a 14hs. y de 16 a 20hs.</p>
         </div>
@@ -66,4 +152,5 @@
 
     </footer>
 </body>
+
 </html>

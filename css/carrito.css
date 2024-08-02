@@ -1,0 +1,131 @@
+.fondo-maggie{
+   width: 70%;
+   height: 10rem;
+   margin: 10px auto;
+
+}
+.img-maggie{
+    height: 100%;
+    width: 100%;
+}
+.titulo-carrito, .listado-carrito, .zona-boton-pagar{
+    width: 70%; 
+    margin: 2px auto;
+}
+.titulo-carrito{
+    display:flex;
+    align-items:center;
+    padding: 10px;
+    background-color: rgb(63, 63, 63);
+    color: #fff;
+    border-radius: 30px;
+    margin-bottom: 25px;
+    margin-top: 20px;
+}
+
+.listado-carrito{
+    display: flex;
+    max-width: 600px;
+    margin-left: 200px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0, 0.5);    
+    box-sizing: none;
+    border-radius: 20px 20px;
+    margin:10px auto;
+}
+
+.img-producto{
+    height: 6rem;
+    border-radius: 20px 20px;
+}
+.redireccionable{
+    width: 15rem;
+}
+
+.redireccionable a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+}
+
+.name-product{
+    margin-left: 1em;
+}
+
+.descripcion-producto{
+    display: grid;
+    grid-template-areas: "B1 B3 B5 B7"
+                        "B2 B4 B6 B7";
+}
+.precio{ 
+    grid-area: B1;
+}
+.valor{
+    grid-area: B2;
+    padding-bottom: 20px;
+}
+.cantidad{
+    grid-area: B3;
+}
+
+.precio, .cantidad, .subtotal{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.numero-cantidad{
+    grid-area: B4;
+    text-align: center;
+}
+.subtotal{
+    grid-area: B5;
+}
+
+.valor-subtotal{
+    grid-area: B6;
+}
+.tachito{
+    grid-area: B7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.precio, .cantidad, .subtotal, .valor, .numero-cantidad,.valor-subtotal, .tachito{
+    margin:0px 20px;
+}
+
+.valor, .numero-cantidad,.valor-subtotal{
+    margin-top: 5px;
+}
+
+input[type=number]{
+    text-align: center;
+    
+}
+input[type=number]::-webkit-inner-spin-button {
+    opacity: 1
+}
+
+.cuadro-cant{
+    width: 45px;
+}
+.boton-pagar button{
+    display: block;
+    width: 20rem;
+    background-color: #C3D22F;
+    border-radius: 0.3rem;
+    margin: 7px auto;
+    padding: 10px;
+    font-size: 1em;
+    font-weight: bold;
+    
+}
+
+.boton-pagar{
+    text-decoration: none;
+    outline: 0;
+}

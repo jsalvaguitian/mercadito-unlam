@@ -5,7 +5,7 @@
 }
 
 header{
-    background-color: #2A3966;
+    background-color:#2A3966 ;
 }
 footer{
     background-color: #2A3966;
@@ -109,7 +109,7 @@ footer{
     display: block;
 }
 .navMenu li:hover{
-    background-color: #4c587e;
+    background-color: #2d2197;
 
 }
 
